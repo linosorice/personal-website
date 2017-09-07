@@ -8,7 +8,7 @@ import Meta from '../components/meta';
 
 import styles from './styles.module.css';
 
-export default () =>
+export default (location) =>
   <div>
     <Meta location={location} />
     <Fullscreen className={styles.intro} firstItem>
