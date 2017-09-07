@@ -1,0 +1,6 @@
+@import '../../css/variables.css';
+
+.social li {
+  display: inline-block;
+  margin-right: calc(var(--gutter) * 1.5);
+}
