@@ -1,15 +1,15 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import classNames from 'classnames';
 
 import Wrapper from '../../wrapper';
+import OutboundLink from '../../outbound-link';
 
 import themeStyles from '../themes.module.css';
 import styles from './styles.module.css';
 
 const ProjectPanel = ({ project }) => (
-  <Link
-    to={`/work/${project.slug}`}
+  <OutboundLink
+    to={project.links.website}
     className={classNames(styles.panel, themeStyles[project.theme.light ? 'light' : 'dark'], styles[project.className])}
     style={{ background: `${project.theme.background}` }}
   >
@@ -21,7 +21,7 @@ const ProjectPanel = ({ project }) => (
         </div>
       </div>
     </Wrapper>
-  </Link>
+  </OutboundLink>
 );
 
 export default ProjectPanel;

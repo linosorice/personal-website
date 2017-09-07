@@ -17,8 +17,7 @@ const projects = [
     className: 'farlaprox',
     description: 'App that offers dedicated offers and helps to stay close to the pharmacy, thanks to the beacon technology',
     links: {
-      ios: 'https://itunes.apple.com/it/id1170606958',
-      android: 'https://play.google.com/store/apps/details?id=com.promoinside.farla',
+      website: 'https://www.youtube.com/watch?v=fEMT-fPSZmY',
     },
     slug: 'farlaprox',
     title: 'FarlaProx',
@@ -32,7 +31,7 @@ const projects = [
     className: 'masterprogress',
     description: 'App that provides a group of 25 specialists in various fields that deliver consulting, coaching and vocational training services.',
     links: {
-      website: 'http://www.quizincloud.com',
+      website: 'https://www.masterprogressgroup.com/',
     },
     slug: 'masterprogress',
     title: 'Master Progress',
@@ -60,7 +59,7 @@ const projects = [
     className: 'savoy',
     description: 'App that enables the proximity marketing inside the hotel Savoy at the center of Rome with the iBeacon technology.',
     links: {
-      website: 'http://www.quizincloud.com',
+      website: 'http://www.savoy.it/',
     },
     slug: 'savoy',
     title: 'Hotel Savoy Roma',
@@ -74,7 +73,7 @@ const projects = [
     className: 'tottisoccerschool',
     description: 'App that contains all the informations of the football school, surveys, and the results of the matches.',
     links: {
-      website: 'http://www.quizincloud.com',
+      website: 'http://www.tottisoccerschool.it/',
     },
     slug: 'tottisoccerschool',
     title: 'Totti Soccer School',
