@@ -14,5 +14,6 @@
     "gatsby-plugin-google-analytics": "^1.0.7",
     "gatsby-plugin-typography": "^1.7.9",
     "react-helmet": "^5.2.0"
-  }
+  },
+  "homepage": "https://linosorice.github.io/personal-website"
 }
