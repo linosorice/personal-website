@@ -1,2 +1,2 @@
 # My personal website
-Thanks to https://github.com/oliverbenns/oliverbenns.com/
+Based on https://github.com/oliverbenns/oliverbenns.com/
