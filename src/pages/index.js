@@ -17,10 +17,10 @@ const Index = ({ location }) => (
           Hello. I’m Pasqualino Sorice.
           <br />
           <br />
-          I'm your next technological partner.
+          I'm your next technical partner.
           <br />
           <br />
-          Check out my <Link className={styles.link} to="/work">work</Link>.
+          Check out my <Link className={styles.link} to="/work">projects</Link>.
         </h1>
       </Wrapper>
       <div className={styles.social}>
