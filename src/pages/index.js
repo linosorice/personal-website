@@ -8,7 +8,7 @@ import Meta from '../components/meta';
 
 import styles from './styles.module.css';
 
-export default (location) =>
+const Index = ({ location }) => (
   <div>
     <Meta location={location} />
     <Fullscreen className={styles.intro} firstItem>
@@ -28,3 +28,6 @@ export default (location) =>
       </div>
     </Fullscreen>
   </div>
+);
+
+export default Index;

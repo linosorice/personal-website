@@ -1,7 +1,9 @@
 {
-  "name": "PersonalWebsite",
-  "description": "Pasqualino Sorice's Website",
+  "name": "pasqualinosorice",
+  "version": "1.0.0",
+  "description": "",
   "license": "MIT",
+  "author": "Pasqualino Sorice",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -12,7 +14,6 @@
     "gatsby": "^1.8.11",
     "gatsby-link": "^1.4.1",
     "gatsby-plugin-google-analytics": "^1.0.7",
-    "gatsby-plugin-typography": "^1.7.9",
     "react-helmet": "^5.2.0"
   }
 }

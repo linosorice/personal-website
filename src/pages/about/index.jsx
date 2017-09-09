@@ -37,9 +37,9 @@ const About = ({ location }) => (
             <h4>Server</h4>
             <p>Mongo, Node, SQL, Ruby, Python, php</p>
             <h4>Frameworks</h4>
-            <p>Express, Sails, Ruby on Rails, Django, Laravel</p>
+            <p>Express, Sails, Ruby on Rails, Django, Laravel, GatsbyJS</p>
             <h4>Server Administration</h4>
-            <p>Apache, Nginx, Mysql, Nagios, Firewall</p>
+            <p>Apache, Nginx, Mysql, Nagios, Iptables</p>
             <h4>Other</h4>
             <p>C, Ansible, Git, Svn, Bash</p>
           </div>
