@@ -23,7 +23,7 @@ const Menu = ({ active, onNavClick }) => {
               <Link {...linkProps} to="/about">About</Link>
             </li>
             <li className={styles.item}>
-              <Link {...linkProps} to="/work">Work</Link>
+              <Link {...linkProps} to="/work">Projects</Link>
             </li>
             <li className={styles.item}>
               <a href="https://steemit.com/@lino" target="_blank">Blog</a>
