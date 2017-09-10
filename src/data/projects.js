@@ -6,7 +6,7 @@ const projects = [
       website: 'http://www.gopaybot.com',
     },
     slug: 'gopaybot',
-    title: 'GoPay',
+    title: 'Gopay',
     cover: require('./gopay.png'),
     theme: {
       background: '#00a5d1',
@@ -14,19 +14,20 @@ const projects = [
     },
   },
   {
-    className: 'farlaprox',
-    description: 'App that offers dedicated offers and helps to stay close to the pharmacy, thanks to the beacon technology',
+    className: 'buildteam',
+    description: 'Is an exciting new organization implementing a revolutionary new business model based around valuable blockchain services.',
     links: {
-      website: 'https://www.youtube.com/watch?v=fEMT-fPSZmY',
+      website: 'https://steemit.com/@buildteam',
     },
-    slug: 'farlaprox',
-    title: 'FarlaProx',
-    cover: require('./farlaprox.png'),
+    slug: 'buildteam',
+    title: 'BuildTeam',
+    cover: require('./buildteam.png'),
     theme: {
-      background: '#F7F7FF',
+      background: '#FFFFFF',
       light: true,
     },
   },
+
   {
     className: 'masterprogress',
     description: 'App that provides a group of 25 specialists in various fields that deliver consulting, coaching and vocational training services.',
@@ -81,6 +82,20 @@ const projects = [
     theme: {
       background: '#912439',
       light: false,
+    },
+  },
+  {
+    className: 'farlaprox',
+    description: 'App that offers dedicated offers and helps to stay close to the pharmacy, thanks to the beacon technology',
+    links: {
+      website: 'https://www.youtube.com/watch?v=fEMT-fPSZmY',
+    },
+    slug: 'farlaprox',
+    title: 'FarlaProx',
+    cover: require('./farlaprox.png'),
+    theme: {
+      background: '#F7F7FF',
+      light: true,
     },
   },
   {
