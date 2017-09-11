@@ -1,11 +1,22 @@
 @import '../../css/variables.css';
 
+.image {
+  display: inline-block;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.photo {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 .link {
   border-bottom: 1px solid var(--colorBlack);
 }
 
 .page {
-  padding: 10vh 0 5vh;
+  padding: 5vh 0 5vh;
 }
 
 .about {
@@ -63,6 +74,11 @@
 }
 
 @media (--medium) {
+
+  .image {
+    width: 250px;
+  }
+
   .about {
     margin-bottom: 3rem;
   }
@@ -91,6 +107,11 @@
 }
 
 @media (--small) {
+
+  .image {
+    width: 200px;
+  }
+
   .intro, .referral {
     width: calc(12 / var(--columnCount) * 100%);
   }

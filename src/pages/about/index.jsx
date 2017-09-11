@@ -6,12 +6,17 @@ import Meta from '../../components/meta';
 import OutboundLink from '../../components/outbound-link';
 import Wrapper from '../../components/wrapper';
 
+import Me from './img/me.jpg';
+
 import styles from './styles.module.css';
 
 const About = ({ location }) => (
   <ContentPage className={styles.page}>
     <Meta title="About" location={location} />
     <Wrapper>
+      <div className={styles.photo}>
+        <img className={styles.image} src={Me} alt="Me" />
+      </div>
       <div className={styles.about}>
         <section className={styles.intro}>
           <h1>Hello world.</h1>
