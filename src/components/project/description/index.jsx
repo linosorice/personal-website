@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import Wrapper from '../../wrapper';
+import Wrapper from '../../wrapper'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
 
 const ProjectDescription = ({ children, media }) => (
   <Wrapper className={styles.content}>
@@ -14,6 +14,6 @@ const ProjectDescription = ({ children, media }) => (
       {children}
     </div>
   </Wrapper>
-);
+)
 
-export default ProjectDescription;
+export default ProjectDescription

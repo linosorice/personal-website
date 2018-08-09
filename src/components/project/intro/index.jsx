@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-import OutboundLink from '../../outbound-link';
-import Wrapper from '../../wrapper';
+import OutboundLink from '../../outbound-link'
+import Wrapper from '../../wrapper'
 
-import iosSrc from './img/ios.svg';
-import androidSrc from './img/android.png';
+import iosSrc from './img/ios.svg'
+import androidSrc from './img/android.png'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
 
 const ProjectIntro = ({ media, project }) => (
   <Wrapper className={styles.cover}>
@@ -17,13 +17,13 @@ const ProjectIntro = ({ media, project }) => (
 
       {project.links.ios && (
         <OutboundLink to={project.links.ios} className={styles.download}>
-          <img src={iosSrc} alt="Download on iOS App Store" />
+          <img src={iosSrc} alt='Download on iOS App Store' />
         </OutboundLink>
       )}
 
       {project.links.android && (
         <OutboundLink to={project.links.android} className={styles.download}>
-          <img src={androidSrc} alt="Download on Google Play Store" />
+          <img src={androidSrc} alt='Download on Google Play Store' />
         </OutboundLink>
       )}
     </div>
@@ -31,6 +31,6 @@ const ProjectIntro = ({ media, project }) => (
       {media}
     </div>
   </Wrapper>
-);
+)
 
-export default ProjectIntro;
+export default ProjectIntro

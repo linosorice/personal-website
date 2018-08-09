@@ -1,12 +1,12 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { siteMetadata as config } from '../../../gatsby-config';
+import React from 'react'
+import Helmet from 'react-helmet'
+import { siteMetadata as config } from '../../../gatsby-config'
 
 const Meta = props => {
-  const mainTitle = `${config.title} - Technical Partner`;
-  const metaTitle = props.title ? `${props.title} | ${mainTitle}` : mainTitle;
-  const metaDescription = props.description || config.description;
-  const absoluteUrl = `${config.url}${props.location.pathname}`;
+  const mainTitle = `${config.title} - Technical Partner`
+  const metaTitle = props.title ? `${props.title} | ${mainTitle}` : mainTitle
+  const metaDescription = props.description || config.description
+  const absoluteUrl = `${config.url}${props.location.pathname}`
 
   const meta = [
     { name: 'description', content: metaDescription },
@@ -15,16 +15,16 @@ const Meta = props => {
     { property: 'og:url', content: absoluteUrl },
     { name: 'twitter:title', content: metaTitle },
     { name: 'twitter:description', content: metaDescription },
-    { property: 'twitter:url', content: absoluteUrl },
-  ];
+    { property: 'twitter:url', content: absoluteUrl }
+  ]
 
   if (props.noIndex) {
-    meta.push({ name: 'robots', content: 'noindex' });
+    meta.push({ name: 'robots', content: 'noindex' })
   }
 
   return (
     <Helmet title={metaTitle} meta={meta} />
-  );
-};
+  )
+}
 
-export default Meta;
+export default Meta

@@ -1,15 +1,15 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from 'react'
+import Link from 'gatsby-link'
 
-import Fullscreen from '../fullscreen';
-import Wrapper from '../wrapper';
+import Fullscreen from '../fullscreen'
+import Wrapper from '../wrapper'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
 
 const Menu = ({ active, onNavClick }) => {
   const linkProps = {
-    onClick: onNavClick,
-  };
+    onClick: onNavClick
+  }
 
   return (
     <Fullscreen className={active ? styles.menu : styles.disable}>
@@ -17,25 +17,25 @@ const Menu = ({ active, onNavClick }) => {
         <nav>
           <ul>
             <li className={styles.item}>
-              <Link {...linkProps} to="/">Home</Link>
+              <Link {...linkProps} to='/'>Home</Link>
             </li>
             <li className={styles.item}>
-              <Link {...linkProps} to="/about">About</Link>
+              <Link {...linkProps} to='/about'>About</Link>
             </li>
             <li className={styles.item}>
-              <Link {...linkProps} to="/work">Projects</Link>
+              <Link {...linkProps} to='/work'>Projects</Link>
             </li>
             <li className={styles.item}>
-              <a href="https://steemit.com/@lino" target="_blank">Blog</a>
+              <a href='https://steemit.com/@lino' target='_blank'>Blog</a>
             </li>
             <li className={styles.item}>
-              <Link {...linkProps} to="/contact">Contact</Link>
+              <Link {...linkProps} to='/contact'>Contact</Link>
             </li>
           </ul>
         </nav>
       </Wrapper>
     </Fullscreen>
-  );
-};
+  )
+}
 
-export default Menu;
+export default Menu

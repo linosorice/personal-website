@@ -3,116 +3,116 @@ const projects = [
     className: 'gopay',
     description: 'Offers the ability to purchase products and services directly from Telegram and generate revenues from the channel of the merchant.',
     links: {
-      website: 'http://www.gopaybot.com',
+      website: 'http://www.gopaybot.com'
     },
     slug: 'gopaybot',
     title: 'Gopay',
     cover: require('./gopay.png'),
     theme: {
       background: '#00a5d1',
-      light: false,
-    },
+      light: false
+    }
   },
   {
     className: 'buildteam',
     description: 'Is an exciting new organization implementing a revolutionary new business model based around valuable blockchain services.',
     links: {
-      website: 'https://steemit.com/@buildteam',
+      website: 'https://steemit.com/@buildteam'
     },
     slug: 'buildteam',
     title: 'BuildTeam',
     cover: require('./buildteam.png'),
     theme: {
       background: '#FFFFFF',
-      light: true,
-    },
+      light: true
+    }
   },
 
   {
     className: 'masterprogress',
     description: 'App that provides a group of 25 specialists in various fields that deliver consulting, coaching and vocational training services.',
     links: {
-      website: 'https://www.masterprogressgroup.com/',
+      website: 'https://www.masterprogressgroup.com/'
     },
     slug: 'masterprogress',
     title: 'Master Progress',
     cover: require('./masterprogress.png'),
     theme: {
       background: '#B9AD92',
-      light: false,
-    },
+      light: false
+    }
   },
   {
     className: 'appmobilerental',
     description: 'Platform that allows you to create an iOS and Android app in 24 hours with several modules like iBeacons, order management ecc.',
     links: {
-      website: 'http://www.appmobilerental.com',
+      website: 'http://www.appmobilerental.com'
     },
     slug: 'appmobilerental',
     title: 'AppMobileRental',
     cover: require('./appmobilerental.png'),
     theme: {
       background: '#C6D8D3',
-      light: true,
-    },
+      light: true
+    }
   },
   {
     className: 'savoy',
     description: 'App that enables the proximity marketing inside the hotel Savoy at the center of Rome with the iBeacon technology.',
     links: {
-      website: 'http://www.savoy.it/',
+      website: 'http://www.savoy.it/'
     },
     slug: 'savoy',
     title: 'Hotel Savoy Roma',
     cover: require('./savoy.png'),
     theme: {
       background: '#FFFFFF',
-      light: true,
-    },
+      light: true
+    }
   },
   {
     className: 'tottisoccerschool',
     description: 'App that contains all the informations of the football school, surveys, and the results of the matches.',
     links: {
-      website: 'http://www.tottisoccerschool.it/',
+      website: 'http://www.tottisoccerschool.it/'
     },
     slug: 'tottisoccerschool',
     title: 'Totti Soccer School',
     cover: require('./tottisoccerschool.png'),
     theme: {
       background: '#912439',
-      light: false,
-    },
+      light: false
+    }
   },
   {
     className: 'farlaprox',
     description: 'App that offers dedicated offers and helps to stay close to the pharmacy, thanks to the beacon technology',
     links: {
-      website: 'https://www.youtube.com/watch?v=fEMT-fPSZmY',
+      website: 'https://www.youtube.com/watch?v=fEMT-fPSZmY'
     },
     slug: 'farlaprox',
     title: 'FarlaProx',
     cover: require('./farlaprox.png'),
     theme: {
       background: '#F7F7FF',
-      light: true,
-    },
+      light: true
+    }
   },
   {
     className: 'quizincloud',
     description: 'Platform that allows the people to create an online course with gamification in few clicks accessible from mobile phones.',
     links: {
-      website: 'http://www.quizincloud.com',
+      website: 'http://www.quizincloud.com'
     },
     slug: 'quizincloud',
     title: 'QuizInCloud',
     cover: require('./quizincloud.png'),
     theme: {
       background: '#177FB3',
-      light: false,
-    },
-  },
-  /*{
+      light: false
+    }
+  }
+  /* {
     className: 'kindyNow',
     description: 'Web app to allow childcare centre managers to monitor and control absences, bookings and capacities.',
     links: {
@@ -181,7 +181,7 @@ const projects = [
     theme: {
       background: '#5ab6ff',
     },
-  },*/
-];
+  }, */
+]
 
-export default projects;
+export default projects

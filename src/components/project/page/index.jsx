@@ -1,11 +1,11 @@
-import React from 'react';
-import classNames from 'classnames';
+import React from 'react'
+import classNames from 'classnames'
 
-import ContentPage from '../../content-page';
-import Meta from '../../meta';
+import ContentPage from '../../content-page'
+import Meta from '../../meta'
 
-import themeStyles from '../themes.module.css';
-import styles from './styles.module.css';
+import themeStyles from '../themes.module.css'
+import styles from './styles.module.css'
 
 const ProjectPage = ({ children, className, location, project }) => (
   <ContentPage
@@ -15,6 +15,6 @@ const ProjectPage = ({ children, className, location, project }) => (
     <Meta title={project.title} description={project.description} location={location} />
     {children}
   </ContentPage>
-);
+)
 
-export default ProjectPage;
+export default ProjectPage

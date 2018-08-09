@@ -1,11 +1,11 @@
-import React from 'react';
-import classNames from 'classnames';
+import React from 'react'
+import classNames from 'classnames'
 
-import Wrapper from '../../wrapper';
-import OutboundLink from '../../outbound-link';
+import Wrapper from '../../wrapper'
+import OutboundLink from '../../outbound-link'
 
-import themeStyles from '../themes.module.css';
-import styles from './styles.module.css';
+import themeStyles from '../themes.module.css'
+import styles from './styles.module.css'
 
 const ProjectPanel = ({ project }) => (
   <OutboundLink
@@ -22,6 +22,6 @@ const ProjectPanel = ({ project }) => (
       </div>
     </Wrapper>
   </OutboundLink>
-);
+)
 
-export default ProjectPanel;
+export default ProjectPanel

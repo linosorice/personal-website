@@ -1,12 +1,12 @@
-import React from "react";
-import Link from 'gatsby-link';
+import React from 'react'
+import Link from 'gatsby-link'
 
-import Fullscreen from '../components/fullscreen';
-import Wrapper from '../components/wrapper';
-import Social from '../components/social';
-import Meta from '../components/meta';
+import Fullscreen from '../components/fullscreen'
+import Wrapper from '../components/wrapper'
+import Social from '../components/social'
+import Meta from '../components/meta'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
 
 const Index = ({ location }) => (
   <div>
@@ -17,10 +17,10 @@ const Index = ({ location }) => (
           Hello. I’m Pasqualino Sorice.
           <br />
           <br />
-          I'm your next technical partner.
+          I'm a Computer Engineer and Full Stack Developer.
           <br />
           <br />
-          Check out my <Link className={styles.link} to="/work">projects</Link>.
+          Check out my <Link className={styles.link} to='/work'>projects</Link>.
         </h1>
       </Wrapper>
       <div className={styles.social}>
@@ -28,6 +28,6 @@ const Index = ({ location }) => (
       </div>
     </Fullscreen>
   </div>
-);
+)
 
-export default Index;
+export default Index
