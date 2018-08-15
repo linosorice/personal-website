@@ -15,17 +15,17 @@ const projects = [
     github: 'https://github.com/linosorice/gopay'
   },
   {
-    className: 'buildteam',
-    description: 'Is an exciting new organization implementing a revolutionary new business model based around valuable blockchain services.',
+    className: 'tokedo',
+    description: 'Tokedo is the complete ecosystem designed to bring cryptocurrency into the mainstream.',
     links: {
-      website: 'https://steemit.com/@buildteam'
+      website: 'https://tokedo.io/'
     },
-    slug: 'buildteam',
-    title: 'BuildTeam',
-    cover: require('./buildteam.png'),
+    slug: 'tokedo',
+    title: 'Tokedo',
+    cover: require('./tokedo.png'),
     theme: {
-      background: '#FFFFFF',
-      light: true
+      background: '#0a051c',
+      light: false
     }
   },
 

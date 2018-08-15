@@ -36,6 +36,11 @@
   background-size: auto 65%;
 }
 
+.tokedo .inner {
+  background-position-x: 10%;
+  background-size: auto 30%;
+}
+
 .quizincloud .inner {
   background-position-x: 10%;
   background-size: auto 25%;
