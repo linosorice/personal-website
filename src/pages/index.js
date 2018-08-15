@@ -17,7 +17,7 @@ const Index = ({ location }) => (
           Hello. I’m Pasqualino Sorice.
           <br />
           <br />
-          I'm a Computer Engineer and Full Stack Developer.
+          I'm a Computer Engineer and a Full Stack Developer.
           <br />
           <br />
           Check out my <Link className={styles.link} to='/work'>projects</Link>.

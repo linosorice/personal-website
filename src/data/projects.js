@@ -3,7 +3,7 @@ const projects = [
     className: 'gopay',
     description: 'Offers the ability to purchase products and services directly from Telegram and generate revenues from the channel of the merchant.',
     links: {
-      website: 'http://www.gopaybot.com'
+      website: 'https://gopaydemo.herokuapp.com/'
     },
     slug: 'gopaybot',
     title: 'Gopay',
