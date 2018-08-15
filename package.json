@@ -8,7 +8,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "surge public pasqualinosorice.com"
+    "deploy": "npm run build && surge public pasqualinosorice.com"
   },
   "dependencies": {
     "classnames": "^2.2.5",
