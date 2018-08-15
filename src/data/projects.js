@@ -11,7 +11,8 @@ const projects = [
     theme: {
       background: '#00a5d1',
       light: false
-    }
+    },
+    github: 'https://github.com/linosorice/gopay'
   },
   {
     className: 'buildteam',

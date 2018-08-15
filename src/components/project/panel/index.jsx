@@ -3,6 +3,7 @@ import classNames from 'classnames'
 
 import Wrapper from '../../wrapper'
 import OutboundLink from '../../outbound-link'
+import Icon from '../../icon'
 
 import themeStyles from '../themes.module.css'
 import styles from './styles.module.css'
@@ -18,6 +19,12 @@ const ProjectPanel = ({ project }) => (
         <div className={styles.content}>
           <h2>{project.title}</h2>
           <p>{project.description}</p>
+          {project.github
+            ? <OutboundLink to={project.github}>
+              <Icon name='github' />
+            </OutboundLink>
+            : null
+          }
         </div>
       </div>
     </Wrapper>
