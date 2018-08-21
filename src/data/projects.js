@@ -30,16 +30,16 @@ const projects = [
   },
 
   {
-    className: 'masterprogress',
-    description: 'App that provides a group of 25 specialists in various fields that deliver consulting, coaching and vocational training services.',
+    className: 'proximitychat',
+    description: 'App that allows you to chat with people near to you in a simple way',
     links: {
-      website: 'https://www.masterprogressgroup.com/'
+      website: 'https://github.com/linosorice/proximity_chat'
     },
-    slug: 'masterprogress',
-    title: 'Master Progress',
-    cover: require('./masterprogress.png'),
+    slug: 'proximitychat',
+    title: 'ProximityChat',
+    cover: require('./proximitychat.png'),
     theme: {
-      background: '#B9AD92',
+      background: '#95190C',
       light: false
     }
   },

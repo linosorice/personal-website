@@ -66,9 +66,9 @@
   background-size: auto 55%;
 }
 
-.masterprogress .inner {
-  background-position-x: 95%;
-  background-size: auto 30%;
+.proximitychat .inner {
+  background-position-x: 75%;
+  background-size: auto 60%;
 }
 
 @media (--small) {
